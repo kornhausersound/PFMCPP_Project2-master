@@ -15,12 +15,12 @@ video: Chapter 2 - Part 3
  
  
  1) Write down the names of the 6 major primitive types available in C++  here:
- 
- 
- 
- 
- 
- 
+ int
+ float
+ bool
+ double
+ char
+ unsigned int
  
  
  
@@ -61,6 +61,29 @@ video: Chapter 2 - Part 3
 
 //2)
 void variableDeclarations()
+    int myAge = 28 ignoreUnused(number);
+    int myGuitar = 3 ignoreUnused(number);
+    int myPhone = 2 ignoreUnused(number);
+
+    float car = 2.5 ignoreUnused(number);
+    float bus = 3.3 ignoreUnused(number);
+    float plane = 5.32 ignoreUnused(number);
+
+    double train = 5.3432 ignoreUnused(number);
+    double d = 6.23453 ignoreUnused(number);
+    double r = 5.294855 ignoreUnused(number);
+
+    char test = 'h' ignoreUnused(number);
+    char apple = 'f' ignoreUnused(number);
+    char pump = 'r' ignoreUnused(number);
+
+    bool cond = false ignoreUnused(number);
+    bool getColours = true ignoreUnused(number);
+    bool hasEditor = false ignoreUnused(number);
+
+    
+
+    
 {
     //example:
     int number = 2; //declaration of a variable named "number", that uses the primitive type 'int', and the variable's initial value is '2'
@@ -82,43 +105,43 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 } 
 
 /*
- 1)
+ 1) tieShoeLaces( int grabShoeLaces){ ignoreUnused( ); }
  */
 
 /*
- 2)
+ 2) hammerNail( int grabNail + int grabHammer){ ignoreUnused( ); }
  */
 
 /*
- 3)
+ 3) int numStringsPlucked { ignoreUnused( ); }
  */
 
 /*
- 4)
+ 4) hitBaseball (int grabBat + in swingBat){ ignoreUnused( ); }
  */
 
 /*
- 5)
+ 5) makePBJ ( int getPB + getJelly){ ignoreUnused( ); } 
  */
 
 /*
- 6)
+ 6) int numCandiesEaten{ ignoreUnused( ); }
  */
 
 /*
- 7)
+ 7) getDressed ( int getShirt + int getPants){ ignoreUnused( ); } 
  */
 
 /*
- 8)
+ 8) hitSnareDrum ( int grabSticks){ ignoreUnused( ); }
  */
 
 /*
- 9)
+ 9) sharpenPencil (int getPencil + int getSharpener){ ignoreUnused( ); }
  */
 
 /*
- 10)
+ 10) chargePhone ( int getPhone + int getCharger){ ignoreUnused( ); }
  */
 
 /*
